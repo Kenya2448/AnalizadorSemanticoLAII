@@ -2,7 +2,7 @@ package views;
 
 import compilador.AnalizadorLexico;
 import compilador.AnalizadorSemantico;
-import compilador.CodigoIntermedio;
+import compilador.CodIntermedio;
 import compilador.TablaSimbolos;
 import views.TablaSimbolosView;
 
@@ -159,7 +159,7 @@ public class CompiladorFrame extends JFrame implements ActionListener {
         tablaSimbolosView.setVisible(true);
         
         // Imprimir cuadruplos
-        new CodigoIntermedio(tablaSimbolos.getListaSimbolos());
+        new CodIntermedio(tablaSimbolos.getListaSimbolos());
 
     }
 

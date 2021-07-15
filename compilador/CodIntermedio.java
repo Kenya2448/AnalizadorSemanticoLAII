@@ -16,7 +16,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
 
-public class CodigoIntermedio {
+
+
+public class CodIntermedio {
 
     private class Expresion {
         public String id;
@@ -42,7 +44,7 @@ public class CodigoIntermedio {
     ArrayList<Expresion> listaExpresiones;
     ArrayList<Cuadruplo> listaCuadruplos;
 
-    public CodigoIntermedio(ArrayList<Simbolo> listaSimbolos) {
+    public CodIntermedio(ArrayList<Simbolo> listaSimbolos) {
         this.listaSimbolos = listaSimbolos;
         obtenerExpresiones();
         generarCuadruplos();
